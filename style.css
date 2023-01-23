@@ -1,0 +1,242 @@
+body {
+    background-color: rgb(253, 251, 251);
+/*  background-color: gray;
+ */padding-top: 80px
+
+}
+
+ #main-content {
+font-family:'Times New Roman', Times, serif
+}
+
+ 
+/* ==========================CABECALHO============================ */
+#cabecalho {
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: rgb(0, 0, 61);
+    position: fixed;
+
+}
+
+#cabecalho #titulo {
+    color: white;
+    text-align: center;
+    z-index: 1;
+    font-size: 40px;
+}
+
+/* ===========================NAV================================= */
+#navegacao {
+    background-color: rgba(15, 57, 68, 0.76);
+    margin: 0 auto;
+    display: inline block;
+    position: absolute;
+}
+
+ul.horizontal-list {
+    list-style: none;
+    text-align: center;
+ 
+}
+ul.horizontal-list li{
+    display: inline;
+    padding-left:3%;
+    padding-right:3%;
+}
+.horizontal-list a {
+    color: rgb(236, 236, 236);
+    font-family:monospace;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size:large;
+    line-height: 10px;
+}
+.horizontal-list a:hover {
+    background-color: rgb(0, 67, 83);
+    padding: 5px;
+   transition-delay: 80ms;
+   border-style: groove;
+}
+.horizontal-list a:active {
+    background-color: rgba(0, 255, 255, 0.363);
+}
+
+/* ==========================FOTO================================== */
+
+#minha_foto {
+    margin-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height:20%;
+    min-width: 200px;
+    min-height: 200px;
+    border-radius:50%;
+    overflow: hidden;
+    position: relative;
+    display: block;
+}
+
+/* =========================Aprendizado============================= */
+#aprendizado h1{
+    text-align: left;
+}
+#aprendizado {
+    text-align:justify;
+    width: 40vw;
+    font-size: 20px;
+    float: right;
+    margin-top: 5%;
+    margin-right: auto;
+}
+
+
+/* =====================DESCRICAO============================================== */
+
+
+
+#descricao {
+    text-align: justify;
+    width: 40vw;
+    font-size: 20px;
+    float: left;
+    margin-top: 5%;
+    margin-left: auto;
+}
+
+/* ===========================LICOES=========================================== */
+
+#licoes {
+    width: 100vw;
+    height: 155vh;
+    margin-top: 30%;
+}
+#aprendidas {
+    width: 40vw;
+    margin: 0 5vw;
+    padding-top: 12vh;
+    float: left;
+    text-align: center;
+}
+#aprendidas h2 {
+    font-size: 4vh;
+    margin-bottom: 5vh;
+    color: rgb(11, 11, 122);
+    text-shadow: 1px 1px 0 black;
+}
+
+#aprendidas ol {
+list-style: none;
+}
+
+#aprendidas li{
+    padding: 4vh 3vw;
+    height: 5vh;
+    font-size: 3.5vh;
+    justify-content: center;
+    align-items: center;
+    color: rgb(5, 10, 172);
+    text-shadow: 1px 1px 0 black;
+    border: 1px solid black;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+#aprendidas ol :nth-child(odd){
+ background-color:rgba(23, 190, 187, 0.739)
+}
+
+#aprendidas ol :nth-child(even){
+    color:rgb(195, 244, 243);
+    background-color: rgb(0, 3, 93);
+   }
+
+#a_aprender ul :nth-child(odd) {
+background-color: rgba(23, 190, 187, 0.739);
+}
+
+#a_aprender ul :nth-child(even) {
+    color: rgba(195,244,243);
+    background-color: rgb(0, 3, 93);
+    }
+
+#a_aprender {
+    width: 40vw;
+    margin: 0 5vw;
+    padding-top: 12vh;
+    float: left;
+    text-align: center;
+}
+
+#a_aprender h2 {
+    font-size: 4vh;
+    margin-bottom: 5vh;
+    color: rgb(11, 11, 122);
+    text-shadow: 1px 1px 0 black;
+}
+
+#a_aprender ul{
+    list-style: none;
+}
+
+#a_aprender li{
+    padding: 4vh 3vw;
+    height: 5vh;
+    font-size: 3.5vh;
+    justify-content: center;
+    align-items: center;
+    color: rgb(5, 10, 172);
+    text-shadow: 1px 1px 0 black;
+    border: 1px solid black;
+    word-wrap:break-word;
+    overflow: hidden;
+}
+
+/* ==========================TABELA============================================== */
+
+#tabela {
+  
+  }
+
+#tabela h1 {
+    font-size: 5vh;
+    text-align: center;
+    color: rgb(0, 14, 119);
+    padding-top: 100px;
+  }
+  
+  #tabela table {
+    text-align: justify;
+    font-size: 2vw;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+  }
+  
+  #tabela td {
+    padding: 1vh 1vw;
+    background-color: rgba(23, 190, 187, 0.739);
+    color: rgb(0, 3, 93);
+  }
+  
+  #tabela td , th {
+    border: 2px solid black;
+  }
+  
+  #tabela th {
+    border: 2px solid black;
+    text-align: center;
+    background-color: rgb(0, 3, 93);
+    color: rgba(195,244,243);
+  }
+  
+  /* ====================================RODAPE====================================== */
+  #rodape {
+    text-align: center;
+    padding-top: 500px;
+    font-size: small;
+  }
